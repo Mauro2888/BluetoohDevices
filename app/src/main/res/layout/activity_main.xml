@@ -25,6 +25,18 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
+    <Button
+        android:text="Paired Devices"
+        android:id="@+id/active_devices"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:text="Discover Devices"
+        android:id="@+id/discover_devices"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
     <ListView
         android:id="@+id/listvidew_devices"
         android:layout_width="match_parent"
